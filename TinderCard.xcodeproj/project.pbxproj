@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		07BEC8EB204020F5008715B6 /* TinderCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 07BEC8E9204020F5008715B6 /* TinderCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07BEC9102042418F008715B6 /* TinderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BEC90F2042418F008715B6 /* TinderCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07BEC8E6204020F5008715B6 /* TinderCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TinderCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BEC8E9204020F5008715B6 /* TinderCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TinderCard.h; sourceTree = "<group>"; };
 		07BEC8EA204020F5008715B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07BEC90F2042418F008715B6 /* TinderCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				07BEC8E9204020F5008715B6 /* TinderCard.h */,
+				07BEC90F2042418F008715B6 /* TinderCardView.swift */,
 				07BEC8EA204020F5008715B6 /* Info.plist */,
 			);
 			path = TinderCard;
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					07BEC8E5204020F5008715B6 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07BEC9102042418F008715B6 /* TinderCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +258,7 @@
 		07BEC8EF204020F5008715B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -266,6 +272,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-HideakiTouhara.TinderCard";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -274,6 +281,7 @@
 		07BEC8F0204020F5008715B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
