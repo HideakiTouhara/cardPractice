@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		07BEC8EB204020F5008715B6 /* TinderCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 07BEC8E9204020F5008715B6 /* TinderCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07BEC9102042418F008715B6 /* TinderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BEC90F2042418F008715B6 /* TinderCardView.swift */; };
+		07BEC9122043B79E008715B6 /* SwipeableCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BEC9112043B79E008715B6 /* SwipeableCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		07BEC8E9204020F5008715B6 /* TinderCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TinderCard.h; sourceTree = "<group>"; };
 		07BEC8EA204020F5008715B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07BEC90F2042418F008715B6 /* TinderCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCardView.swift; sourceTree = "<group>"; };
+		07BEC9112043B79E008715B6 /* SwipeableCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeableCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 			children = (
 				07BEC8E9204020F5008715B6 /* TinderCard.h */,
 				07BEC90F2042418F008715B6 /* TinderCardView.swift */,
+				07BEC9112043B79E008715B6 /* SwipeableCardView.swift */,
 				07BEC8EA204020F5008715B6 /* Info.plist */,
 			);
 			path = TinderCard;
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07BEC9102042418F008715B6 /* TinderCardView.swift in Sources */,
+				07BEC9122043B79E008715B6 /* SwipeableCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
