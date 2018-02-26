@@ -15,6 +15,14 @@ public protocol TinderCardViewDataSource: class {
 
 open class TinderCardView: UIView {
     
+    override public init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
+    public required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
     public weak var dataSource: TinderCardViewDataSource? {
         didSet {
             setUp()
